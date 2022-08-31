@@ -1,0 +1,19 @@
+.imagewidth {
+  width: 100%;
+}
+
+a:visited {
+  text-decoration: none;
+  color: var(--surface-900);
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: lightgray;
+  width: 70vw;
+}

@@ -1,0 +1,281 @@
+<p-toast position="bottom-center"></p-toast>
+<div class="surface-overlay py-3 px-6 shadow-none flex align-items-center justify-content-between relative lg:static">
+  <img
+    src="assets/logo.png" alt="Image"><a pripple="" pstyleclass="@next"
+                                         enterclass="hidden" leavetoclass="hidden"
+                                         class="p-ripple p-element cursor-pointer block lg:hidden text-700"><i
+  class="pi pi-bars text-4xl"></i><span class="p-ink"></span></a>
+  <div
+    class="align-items-center flex-grow-1 justify-content-between hidden lg:flex absolute lg:static w-full surface-overlay left-0 top-100 px-6 lg:px-0 z-5 shadow-2 lg:shadow-none">
+    <section></section>
+    <ul
+      class="list-none p-0 m-0 flex lg:align-items-center text-900 select-none flex-column lg:flex-row cursor-pointer">
+      <li><a href="#listings" style="text-decoration: none" pripple=""
+             class="p-ripple p-element flex px-0 lg:px-5 py-3 hover:text-blue-600 font-medium transition-colors transition-duration-150"><span>Find Jobs</span><span
+        class="p-ink"></span></a></li>
+      <li><a (click)="notAdded()" pripple=""
+             class="p-ripple p-element flex px-0 lg:px-5 py-3 hover:text-blue-600 font-medium transition-colors transition-duration-150"><span>Post Jobs</span><span
+        class="p-ink"></span></a></li>
+      <li><a target="_blank" href="https://twitter.com/0xAgony" pripple=""
+             class="p-ripple p-element flex px-0 lg:px-5 py-3 hover:text-blue-600 font-medium transition-colors transition-duration-150"><span>Contact</span><span
+        class="p-ink"></span></a></li>
+    </ul>
+    <div
+      class="flex justify-content-between lg:block border-top-1 lg:border-top-none surface-border py-3 lg:py-0 mt-3 lg:mt-0">
+      <button (click)="notAdded()" pbutton="" pripple="" label="Connect"
+              class="p-element p-ripple ml-3 p-button-outlined font-bold p-button p-component"><span
+        class="p-button-label">Connect</span><span class="p-ink"></span></button>
+    </div>
+  </div>
+</div>
+
+<div class="grid grid-nogutter surface-section text-800 pt-5">
+  <div class="col-12 md:col-6 p-6 text-center md:text-left flex align-items-center ">
+    <section>
+      <span class="block text-5xl font-bold mb-1">The job marketplace for y00topia</span>
+      <div class="text-6xl text-primary font-bold mb-3">Exclusive to holders</div>
+      <p class="mt-0 mb-4 text-700 line-height-3">A web3 job marketplace exclusive to y00ts and DeGods holers. Find
+        interesting jobs or find interesting people.<br><br>
+        Note: placeholder data is currently being used.</p>
+
+      <button (click)="notAdded()" pButton pRipple label="Connect wallet" type="button"
+              class="mr-3 p-button-raised"></button>
+      <a style="text-decoration: none" target="_blank" href="https://magiceden.io/marketplace/degods">
+        <button pButton pRipple label="Buy on Magic Eden" type="button" class="p-button-outlined"></button>
+      </a>
+    </section>
+  </div>
+  <div class="col-12 md:col-6 overflow-hidden">
+    <img src="assets/jobs.png" alt="Image" class="md:ml-auto block md:h-full imagewidth">
+  </div>
+</div>
+<hr/>
+<a id="listings"></a>
+<div class="px-4 py-8 md:px-6 lg:px-8">
+  <div class="font-bold text-6xl text-900 mb-5 text-center">Job Listings</div>
+  <div class="grid nogutter">
+    <div class="col-12 lg:col-4 p-3">
+      <div class="shadow-2 border-round h-full surface-card"><img
+        src="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreidgfsdjx4nt4vctch73hcchb3pkiwic2onfw5yr4756adchogk5de.ipfs.dweb.link/"
+        alt="Image"
+        class="block w-full border-round-top">
+        <div class="p-4"><span class="block font-medium text-blue-600 mb-3">Okay Bears</span>
+          <div class="text-xl text-900 font-medium mb-3 line-height-3">Marketing Manager</div>
+          <div class="text-sm line-height-3 mb-3 text-700">Okay Bears is a ... looking for a ...<br><br>
+            <i class="pi pi-money-bill"></i> 88 SOL per month
+          </div>
+          <div class="flex mb-3">
+            <p-avatar
+              image="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreidgfsdjx4nt4vctch73hcchb3pkiwic2onfw5yr4756adchogk5de.ipfs.dweb.link/"
+              shape="circle" class="p-element">
+              <div class="p-avatar p-component p-avatar-image p-avatar-circle"><img
+                src="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreidgfsdjx4nt4vctch73hcchb3pkiwic2onfw5yr4756adchogk5de.ipfs.dweb.link/"
+                class="ng-star-inserted"><!----><!----><!---->
+                <!----><!----></div>
+            </p-avatar>
+            <div class="ml-2">
+              <div class="text-xs font-bold text-900 mb-1">@ContactPerson</div>
+              <div class="text-xs flex align-items-center text-700"><i class="pi pi-calendar mr-1 text-xs"></i><span>Aug 31, 2022</span>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-content-center">
+            <button (click)="notAdded()" pButton type="button" label="More details"
+                    class="p-button-sm p-button-secondary p-button-outlined mx-3"></button>
+            <button (click)="notAdded()" pButton type="button" label="Apply now"
+                    class="p-button-sm p-button-outlined mx-3"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 lg:col-4 p-3">
+      <div class="shadow-2 border-round h-full surface-card"><img
+        src="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreicndlrqersl63a7fpk6zzw73lsklj5bwsidk74n4solbcyz2g3viq.ipfs.dweb.link/"
+        alt="Image"
+        class="block w-full border-round-top">
+        <div class="p-4 flex flex-column"><span class="block font-medium text-blue-600 mb-3">DeGods</span>
+          <div class="text-xl text-900 font-medium mb-3 line-height-3">Frontend Developer</div>
+          <div class="text-sm line-height-3 mb-3 text-700">DeGods is a ... looking for a ... <br><br>
+            <i class="pi pi-money-bill"></i> 5% of mint proceeds
+          </div>
+          <div class="flex mb-3">
+            <p-avatar
+              image="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreicndlrqersl63a7fpk6zzw73lsklj5bwsidk74n4solbcyz2g3viq.ipfs.dweb.link/"
+              shape="circle" class="p-element">
+              <div class="p-avatar p-component p-avatar-image p-avatar-circle"><img
+                src="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreicndlrqersl63a7fpk6zzw73lsklj5bwsidk74n4solbcyz2g3viq.ipfs.dweb.link/"
+                class="ng-star-inserted"><!----><!----><!---->
+                <!----><!----></div>
+            </p-avatar>
+            <div class="ml-2">
+              <div class="text-xs font-bold text-900 mb-1">@ContactPerson</div>
+              <div class="text-xs flex align-items-center text-700"><i class="pi pi-calendar mr-1 text-xs"></i><span>Aug 31, 2022</span>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-content-center">
+            <button (click)="notAdded()" pButton type="button" label="More details"
+                    class="p-button-sm p-button-secondary p-button-outlined mx-3"></button>
+            <button (click)="notAdded()" pButton type="button" label="Apply now"
+                    class="p-button-sm p-button-outlined mx-3"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 lg:col-4 p-3">
+      <div class="shadow-2 border-round h-full surface-card"><img
+        src="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://boryokudragonz.io/dragonz-ani.gif"
+        alt="Image"
+        class="block w-full border-round-top">
+        <div class="p-4"><span class="block font-medium text-blue-600 mb-3">Boryoku Dragonz</span>
+          <div class="text-xl text-900 font-medium mb-3 line-height-3">Alpha Caller</div>
+          <div class="text-sm line-height-3 mb-3 text-700">Boryoku Dragonz is a ... looking for a ... <br><br>
+            <i class="pi pi-money-bill"></i> 88 SOL per month
+          </div>
+          <div class="flex mb-3">
+            <p-avatar
+              image="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://boryokudragonz.io/dragonz-ani.gif"
+              shape="circle" class="p-element">
+              <div class="p-avatar p-component p-avatar-image p-avatar-circle"><img
+                src="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://boryokudragonz.io/dragonz-ani.gif"
+                class="ng-star-inserted"><!----><!----><!---->
+                <!----><!----></div>
+            </p-avatar>
+            <div class="ml-2">
+              <div class="text-xs font-bold text-900 mb-1">@ContactPerson</div>
+              <div class="text-xs flex align-items-center text-700"><i class="pi pi-calendar mr-1 text-xs"></i><span>Aug 31, 2022</span>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-content-center">
+            <button (click)="notAdded()" pButton type="button" label="More details"
+                    class="p-button-sm p-button-secondary p-button-outlined mx-3"></button>
+            <button (click)="notAdded()" pButton type="button" label="Apply now"
+                    class="p-button-sm p-button-outlined mx-3"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 lg:col-4 p-3">
+      <div class="shadow-2 border-round h-full surface-card"><img
+        src="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreidgfsdjx4nt4vctch73hcchb3pkiwic2onfw5yr4756adchogk5de.ipfs.dweb.link/"
+        alt="Image"
+        class="block w-full border-round-top">
+        <div class="p-4"><span class="block font-medium text-blue-600 mb-3">Okay Bears</span>
+          <div class="text-xl text-900 font-medium mb-3 line-height-3">Marketing Manager</div>
+          <div class="text-sm line-height-3 mb-3 text-700">Okay Bears is a ... looking for a ...<br><br>
+            <i class="pi pi-money-bill"></i> 88 SOL per month
+          </div>
+          <div class="flex mb-3">
+            <p-avatar
+              image="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreidgfsdjx4nt4vctch73hcchb3pkiwic2onfw5yr4756adchogk5de.ipfs.dweb.link/"
+              shape="circle" class="p-element">
+              <div class="p-avatar p-component p-avatar-image p-avatar-circle"><img
+                src="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreidgfsdjx4nt4vctch73hcchb3pkiwic2onfw5yr4756adchogk5de.ipfs.dweb.link/"
+                class="ng-star-inserted"><!----><!----><!---->
+                <!----><!----></div>
+            </p-avatar>
+            <div class="ml-2">
+              <div class="text-xs font-bold text-900 mb-1">@ContactPerson</div>
+              <div class="text-xs flex align-items-center text-700"><i class="pi pi-calendar mr-1 text-xs"></i><span>Aug 31, 2022</span>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-content-center">
+            <button (click)="notAdded()" pButton type="button" label="More details"
+                    class="p-button-sm p-button-secondary p-button-outlined mx-3"></button>
+            <button (click)="notAdded()" pButton type="button" label="Apply now"
+                    class="p-button-sm p-button-outlined mx-3"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 lg:col-4 p-3">
+      <div class="shadow-2 border-round h-full surface-card"><img
+        src="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreicndlrqersl63a7fpk6zzw73lsklj5bwsidk74n4solbcyz2g3viq.ipfs.dweb.link/"
+        alt="Image"
+        class="block w-full border-round-top">
+        <div class="p-4 flex flex-column"><span class="block font-medium text-blue-600 mb-3">DeGods</span>
+          <div class="text-xl text-900 font-medium mb-3 line-height-3">Frontend Developer</div>
+          <div class="text-sm line-height-3 mb-3 text-700">DeGods is a ... looking for a ... <br><br>
+            <i class="pi pi-money-bill"></i> 5% of mint proceeds
+          </div>
+          <div class="flex mb-3">
+            <p-avatar
+              image="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreicndlrqersl63a7fpk6zzw73lsklj5bwsidk74n4solbcyz2g3viq.ipfs.dweb.link/"
+              shape="circle" class="p-element">
+              <div class="p-avatar p-component p-avatar-image p-avatar-circle"><img
+                src="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreicndlrqersl63a7fpk6zzw73lsklj5bwsidk74n4solbcyz2g3viq.ipfs.dweb.link/"
+                class="ng-star-inserted"><!----><!----><!---->
+                <!----><!----></div>
+            </p-avatar>
+            <div class="ml-2">
+              <div class="text-xs font-bold text-900 mb-1">@ContactPerson</div>
+              <div class="text-xs flex align-items-center text-700"><i class="pi pi-calendar mr-1 text-xs"></i><span>Aug 31, 2022</span>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-content-center">
+            <button (click)="notAdded()" pButton type="button" label="More details"
+                    class="p-button-sm p-button-secondary p-button-outlined mx-3"></button>
+            <button (click)="notAdded()" pButton type="button" label="Apply now"
+                    class="p-button-sm p-button-outlined mx-3"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 lg:col-4 p-3">
+      <div class="shadow-2 border-round h-full surface-card"><img
+        src="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://boryokudragonz.io/dragonz-ani.gif"
+        alt="Image"
+        class="block w-full border-round-top">
+        <div class="p-4"><span class="block font-medium text-blue-600 mb-3">Boryoku Dragonz</span>
+          <div class="text-xl text-900 font-medium mb-3 line-height-3">Alpha Caller</div>
+          <div class="text-sm line-height-3 mb-3 text-700">Boryoku Dragonz is a ... looking for a ... <br><br>
+            <i class="pi pi-money-bill"></i> 88 SOL per month
+          </div>
+          <div class="flex mb-3">
+            <p-avatar
+              image="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://boryokudragonz.io/dragonz-ani.gif"
+              shape="circle" class="p-element">
+              <div class="p-avatar p-component p-avatar-image p-avatar-circle"><img
+                src="https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://boryokudragonz.io/dragonz-ani.gif"
+                class="ng-star-inserted"><!----><!----><!---->
+                <!----><!----></div>
+            </p-avatar>
+            <div class="ml-2">
+              <div class="text-xs font-bold text-900 mb-1">@ContactPerson</div>
+              <div class="text-xs flex align-items-center text-700"><i class="pi pi-calendar mr-1 text-xs"></i><span>Aug 31, 2022</span>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-content-center">
+            <button (click)="notAdded()" pButton type="button" label="More details"
+                    class="p-button-sm p-button-secondary p-button-outlined mx-3"></button>
+            <button (click)="notAdded()" pButton type="button" label="Apply now"
+                    class="p-button-sm p-button-outlined mx-3"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p-paginator (click)="notAdded()" [rows]="10" [totalRecords]="100"></p-paginator>
+</div>
+
+<div class="surface-section px-4 md:px-6 lg:px-8">
+  <div class="py-6 flex flex-column sm:flex-row sm:align-items-center justify-content-between">
+    <div><img src="assets/jobs.png" alt="Image" height="100vh">
+      <div class="mt-2 line-height-3">Developed by <a href="https://twitter.com/0xAgony" target="_blank">@0xAgony</a></div>
+    </div>
+    <div class="mt-3 sm:mt-0">
+      <a
+      class="cursor-pointer text-500 transition-colors transition-duration-150 hover:text-700"><i
+      class="pi pi-twitter text-xl"></i>
+      </a>
+      <a
+      class="cursor-pointer text-500 ml-3 transition-colors transition-duration-150 hover:text-700"><i
+      class="pi pi-github text-xl"></i>
+      </a>
+    </div>
+  </div>
+</div>
